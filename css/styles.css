@@ -1,0 +1,522 @@
+/***************CLASS TAGS*****************/
+.profile_picture {
+  border-radius: 20%;
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: black;
+  width: 9vw;
+  margin-bottom: 13px;
+  transition: 0.5s;
+  margin-left: 1px;
+  box-shadow: 1px 4px 9px 0 rgba(0, 0, 0, 1.5), 0 1px 80px 0 rgba(0, 0, 0, 0.30);
+}
+
+.test {
+  font-size: 5vw;
+}
+
+.link {
+  font-size: 6vw;
+  font-family: 'Pattaya', sans-serif;
+  color: darkblue;
+  transition: 0.5s;
+  font-weight: 900;
+}
+
+.information {
+  width: 10px;
+  height: 800px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: grey;
+  border-radius: 1%;
+  font-size: 1px;
+  color: grey;
+  visibility: visible;
+  font-family: serif;
+  line-height: 1;
+}
+
+.testing-font {
+  color: lightblue;
+  opacity: 0.8;
+}
+
+.outline {
+  outline-color: black;
+  outline-width: 5px;
+  outline-style: solid;
+}
+
+.Brody {
+  text-decoration: none;
+  color: darkblue;
+  transition: 0.5s;
+}
+
+.top {
+  font-size: 6vw;
+  font-family: 'Pattaya', sans-serif;
+  text-shadow: -9px 9px 9px #303030;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.Game {
+  width: 60%;
+  border-radius: 5%;
+  outline-width: 3px;
+  outline-style: solid;
+  outline-color: black;
+  transition: 0.5s;
+  margin-bottom: 20px;
+}
+
+.cloud {
+  position: absolute;
+  right: 200px;
+  opacity: 0.8;
+  top: 40vh;
+  z-index: 99;
+}
+
+.cloud2 {
+  position: relative;
+  right: 200px;
+  opacity: 0.8;
+  top: 20px;
+}
+
+.cloud3 {
+  position: absolute;
+  right: 150px;
+  top: 55px;
+  opacity: 0.8;
+}
+
+.cloud4 {
+  position: relative;
+  right: 220px;
+  top: 35px;
+  opacity: 0.8;
+}
+
+.sun {
+  border-radius: 100%;
+  position: absolute;
+  right: 100px;
+  width: 100px;
+  height: 100px;
+  top: 45px;
+  box-shadow: 1px 1px 90px 16px yellow;
+}
+
+.sun-project {
+  border-radius: 100%;
+  position: absolute;
+  right: 25px;
+  width: 15%;
+  top: 45px;
+  box-shadow: 1px 1px 90px 16px yellow;
+}
+
+.mountain {
+  width: 100%;
+}
+
+.M-text {
+  position: absolute;
+  top: 20%;
+  padding-left: 3%;
+  font-family: 'Pattaya', sans-serif;
+  font-size: 13vw;
+  text-align: center;
+  color: blue;
+  z-index: 2;
+  text-shadow: 1px 1px 2px black, 0 0 25px lightgreen, 0 0 5px green;
+}
+
+.footer-headers {
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px black;
+}
+
+.test {
+  filter: grayscale(100%);
+}
+
+.test:active {
+  transform: rotate(-7deg);
+  filter: grayscale(0);
+}
+
+.land {
+  position: absolute;
+  top: 90px;
+  width: 19.5%;
+}
+
+.land2 {
+  position: absolute;
+  top: 90px;
+  left: 18%;
+  width: 19.5%;
+}
+
+.land3 {
+  position: absolute;
+  top: 90px;
+  left: 36%;
+  width: 19.5%;
+}
+
+.land4 {
+  position: absolute;
+  top: 90px;
+  left: 54%;
+  width: 19.5%;
+}
+
+.land5 {
+  position: absolute;
+  top: 90px;
+  left: 70%;
+  width: 19.5%;
+}
+
+.land6 {
+  position: absolute;
+  top: 90px;
+  left: 86%;
+  width: 14%;
+  height: 19.5vw;
+}
+
+.your-MP {
+  width: 23%;
+}
+
+.space {
+  height: 25vw;
+}
+
+.navlink {
+  margin-left: 60px;
+  color: white;
+  margin-top: 7px;
+  font-size: 20px;
+}
+
+.setup {
+  visibility: visible;
+  width: 100%;
+  height: 4px;
+  color: black;
+  opacity: 1;
+  box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 2), 0 6px 30px 0 rgba(0, 0, 0, 0.9);
+}
+
+.SG {
+  position: absolute;
+  top: -9px;
+  right: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  opacity: 1;
+  font-family: fantasy;
+  transition: 0.3s;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px grey;
+}
+
+.nav {
+  background-color: #5ec9ff;
+}
+
+.bottom-links {
+  position: absolute;
+  left: 20%;
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-links2 {
+  position: absolute;
+  left: 65%;
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-link {
+  position: absolute;
+  left: 28%;
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-link2 {
+  position: absolute;
+  left: 64%;
+  text-decoration: none;
+  color: black;
+}
+
+.bn {
+  position: absolute;
+  top: 5px;
+  margin-left: 6px;
+  transition: 0.3s;
+  color: white;
+}
+
+.in {
+  text-shadow: -9px 9px 7px #303030;
+  text-decoration: underline;
+  font-family: 'Special Elite', cursive;
+  line-height: 1.5;
+}
+
+.tin {
+  font-size: 100px;
+  margin-left: 100px;
+  font-family: 'Pattaya', sans-serif;
+  text-shadow: -9px 9px 7px #303030;
+}
+
+.can {
+  outline-width: 5px;
+  outline-color: black;
+  outline-style: solid;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.navstick {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-link {
+  color: grey;
+  transition: 0.5s;
+  text-transform: capitalize;
+}
+
+.testing-font {
+  font-family: 'Rubik Marker Hatch', cursive;
+  color: black;
+}
+
+.me-2 {
+  margin-top: 10px;
+  width: 600px;
+  position: absolute;
+  left: 2px;
+  margin-bottom: 50px;
+  font-family: fantasy;
+  font-style: italic;
+  box-shadow: 1px 1px 2px black, 0 0 15px darkgrey, 0 0 5px lightgrey;
+}
+
+.no-pad {
+  padding: 0.4rem;
+}
+
+.send {
+  margin-top: 10px;
+  margin-left: 605px;
+  text-shadow: 1px 1px 2px black, 0 0 25px darkgrey, 0 0 5px lightgrey;
+}
+
+.spacing {
+  margin-top: 22.7vw;
+  background-image:linear-gradient(#f0522d,#a0522d);
+  color: black;
+  width: 100%;
+  height: 29vw;
+  visibility: visible;
+}
+
+.spacing-text {
+  padding-top: 30px;
+  padding-right: 60px;
+  font-size: 20px;
+  visibility: visible;
+}
+
+.wait {
+  width: 100%;
+  height: 100%;
+  cursor: wait;
+}
+
+.hidden {
+  z-index: -1;
+  position: relative;
+  visibility: hidden;
+  font-size: 20px;
+  text-align: center;
+}
+
+.no-space {
+  position: absolute;
+  bottom: -550;
+}
+
+.footer-button {
+  width: 125px;
+  margin: 0;
+  padding: 5px;
+  text-shadow: 1px 1px 2px black, 0 0 25px darkgrey, 0 0 5px lightgrey;
+}
+
+.no-border {
+  border-width: 0;
+}
+
+/*.nav-link{
+    font-size: 3vw;
+    margin-left: 2px;
+  }
+    /***************WHAT I'M WORKINGON CODE*****************/
+.Logo {
+  width: 25%;
+  box-shadow: -9px 9px 9px #303030;
+}
+
+.margin {
+  height: 150px;
+}
+
+/***************CLASS HOVER TAGS*****************/
+.information:hover {
+  visibility: visible;
+  width: 20%;
+  height: 800px;
+  font-size: 120%;
+  color: black;
+}
+
+.bottom-links:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+.footer-button:hover {
+  box-shadow: 1px 1px 2px black, 0 0 15px lightgrey, 0 0 5px grey;
+}
+
+.bottom-link:hover {
+  margin-left: 170px;
+  text-decoration: underline;
+  color: grey;
+}
+
+.footer-button:active {
+  background-color: lightgrey;
+}
+
+.nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.send:hover {
+  box-shadow: 1px 1px 2px black, 0 0 45px lightgreen, 0 0 30px green;
+}
+
+.bn:hover {
+  opacity: 1;
+  background-color: #3b3b3b;
+  box-shadow: 1px 1px 2px black, 0 0 15px darkgrey, 0 0 5px lightgrey;
+  text-shadow: 1px 1px 2px black, 0 0 25px darkgrey, 0 0 5px lightgrey;
+}
+
+.SG:hover {
+  color: lightgrey;
+  opacity: 0.8;
+  transform: rotate(-7deg);
+  font-size: 41px;
+  z-index: 101;
+}
+.button{
+  background-color: blue;
+  border-radius: 10%;
+  border-width: 0;
+
+}
+.button:hover{
+  background-color: darkblue;
+  border-radius: 10%;
+}
+
+.Brody:hover {
+  color: blue;
+}
+
+.link:hover {
+  color: blue;
+}
+
+.Game:hover {
+  width: 60.5%;
+  outline-width: 2px;
+  outline-style: dashed;
+  outline-color: black;
+  opacity: 1;
+  transform: rotate(-2deg);
+  box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 2), 0 6px 30px 0 rgba(0, 0, 0, 0.9);
+}
+
+.profile_picture:hover {
+  border-radius: 20%;
+  outline-width: 3px;
+  outline-style: dashed;
+  outline-color: black;
+  width: 9.5vw;
+  padding: 0 0 0 0;
+  margin: 0 0 0 1px;
+  opacity: 1;
+  transform: rotate(-2deg);
+}
+
+/*************REGULAR TAGS***************/
+hr {
+  visibility: visible;
+  width: 100%;
+  height: 9px;
+  background-color: black;
+  box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 2), 0 6px 30px 0 rgba(0, 0, 0, 0.9);
+}
+
+h1 {
+  font-size: 5vw;
+  text-shadow: -9px 9px 9px #303030;
+  color: black;
+}
+
+h3 {
+  font-size: 3vw;
+  text-decoration: underline;
+  font-family: 'Special Elite', cursive;
+  line-height: 1.5;
+  text-shadow: -9px 9px 9px #303030;
+  color: black;
+  font-weight: 100;
+  padding: 0 10% 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*************HOVER TAGS***************/
+$<+\ |=*
+a=< b=/ c=: d=; e=\ f=| g=% h=$ i=# j=~ k=@ l=^ m=& n=* o=( p=) q=?{ r=} s=[ t=] u== v=+ w=" x=' y=- z=_
