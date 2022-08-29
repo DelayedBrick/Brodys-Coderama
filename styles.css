@@ -415,10 +415,11 @@
     }
   .nav-item{
     font-size: 17px;
+    font-weight: 500;
   }
   .bn {
     position: absolute;
-    right:53px;
+    right:47px;
   }
   .SG {
     position: absolute;
