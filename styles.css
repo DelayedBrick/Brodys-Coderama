@@ -124,10 +124,9 @@
 .mountain {
   width: 100%;
 }
-
 .M-text {
   position: absolute;
-  top: 20%;
+  top: 100px;
   padding-left: 3%;
   font-family: 'Pattaya', sans-serif;
   font-size: 13vw;
@@ -135,6 +134,19 @@
   color: blue;
   z-index: 2;
   text-shadow: 1px 1px 2px black, 0 0 25px lightgreen, 0 0 5px green;
+}
+@media (max-width:1028px){
+  .M-text {
+    position: absolute;
+    top: 50px;
+    padding-left: 3%;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 13vw;
+    text-align: center;
+    color: blue;
+    z-index: 2;
+    text-shadow: 1px 1px 2px black, 0 0 25px lightgreen, 0 0 5px green;
+  }
 }
 
 .footer-headers {
@@ -379,22 +391,15 @@
 .no-border {
   border-width: 0;
 }
-
+.padding{
+  padding-top: 20px;
+}
+/*this is the title section*/
 #title-top{
   background-color:blue;
   text-align: center;
   padding:10%;
   color: #fff;
-}
-#accomplishments{
-  padding:5%;
-  color: black;
-  background-color: powderblue;
-}
-#get-started{
-  padding:5%;
-  color: black;
-  background-color: powderblue;
 }
 .title{
   font-size:4vw;
@@ -403,6 +408,20 @@
 }
 .title-img{
   width:30%;
+}
+@media (max-width:510px) {
+  .nav{
+    height:42px ;
+    }
+  .nav-item{
+    font-size: 15px;
+  }
+}
+/*this is the accomplishment section*/
+#accomplishments{
+  padding:5%;
+  color: black;
+  background-color: powderblue;
 }
 .icon{
   width: 50%;
@@ -422,15 +441,8 @@
   text-align: center;
   color:#3e3e3e;
 }
-.padding{
-  padding-top: 20px;
-}
-#top-5{
-  background-color:#1d33ff;
-  padding:5%;
-  color: white;
 
-}
+/*help section*/
 #help{
   text-align: center;
   background-color:#1d33ff;
@@ -442,16 +454,25 @@
   padding-bottom: 10%;
     font-weight: bolder;
 }
-.started-header{
-  font-weight: bolder;
-}
 .profile-link{
   color:white;
   text-decoration: underline;
 }
-.started-link{
-  color:black;
-  text-decoration: underline;
+.h4-help{
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.help-img{
+  width: 7%;
+}
+/*this is the get started section*/
+#get-started{
+  padding:5%;
+  color: black;
+  background-color: powderblue;
+}
+.started-img{
+  width:10%;
 }
 .started-h2{
   margin-top: 20px;
@@ -460,20 +481,24 @@
   line-height: 2;
   margin-top: 20px;
 }
-.help-img{
-  width: 7%;
+.started-link{
+  color:black;
+  text-decoration: underline;
 }
-.started-img{
-  width:10%;
+.started-header{
+  font-weight: bolder;
+}
+/*top 5 projects of the week*/
+#top-5{
+  background-color:#1d33ff;
+  padding:5%;
+  color: white;
+
 }
 .top-5-header{
   color: white;
   text-align: center;
   font-size: 4vw;
-}
-.h4-help{
-  margin-top: 5%;
-  margin-bottom: 10%;
 }
 
 /*.nav-link{
