@@ -340,7 +340,6 @@
   background-image:linear-gradient(#f0522d,#a0522d);
   color: black;
   width: 100%;
-  height: 29vw;
   visibility: visible;
 }
 
@@ -381,6 +380,102 @@
   border-width: 0;
 }
 
+#title-top{
+  background-color:blue;
+  text-align: center;
+  padding:10%;
+  color: #fff;
+}
+#accomplishments{
+  padding:5%;
+  color: black;
+  background-color: powderblue;
+}
+#get-started{
+  padding:5%;
+  color: black;
+  background-color: powderblue;
+}
+.title{
+  font-size:4vw;
+  font-weight: bolder;
+  color: #fff;
+}
+.title-img{
+  width:30%;
+}
+.icon{
+  width: 50%;
+}
+.acc-header{
+    font-weight: bolder;
+  font-size: 47px;
+  margin-bottom: 30px;
+}
+.acc-h1{
+  font-weight: bolder;
+  font-size: 11vw;
+  margin-bottom: 50px;
+}
+.acc-text{
+  width:200px;
+  text-align: center;
+  color:#3e3e3e;
+}
+.padding{
+  padding-top: 20px;
+}
+#top-5{
+  background-color:#1d33ff;
+  padding:5%;
+  color: white;
+
+}
+#help{
+  text-align: center;
+  background-color:#1d33ff;
+  padding:5%;
+  color: white;
+}
+.help-header{
+  color: white;
+  padding-bottom: 10%;
+    font-weight: bolder;
+}
+.started-header{
+  font-weight: bolder;
+}
+.profile-link{
+  color:white;
+  text-decoration: underline;
+}
+.started-link{
+  color:black;
+  text-decoration: underline;
+}
+.started-h2{
+  margin-top: 20px;
+}
+.started-h4{
+  line-height: 2;
+  margin-top: 20px;
+}
+.help-img{
+  width: 7%;
+}
+.started-img{
+  width:10%;
+}
+.top-5-header{
+  color: white;
+  text-align: center;
+  font-size: 4vw;
+}
+.h4-help{
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
 /*.nav-link{
     font-size: 3vw;
     margin-left: 2px;
@@ -395,6 +490,7 @@
   height: 150px;
 }
 
+
 /***************CLASS HOVER TAGS*****************/
 .information:hover {
   visibility: visible;
@@ -402,6 +498,14 @@
   height: 800px;
   font-size: 120%;
   color: black;
+}
+.profile-link:hover{
+  color:lightgrey;
+  text-decoration: underline;
+}
+.started-link:hover{
+  color:grey;
+  text-decoration: underline;
 }
 
 .bottom-links:hover {
@@ -486,7 +590,6 @@
   opacity: 1;
   transform: rotate(-2deg);
 }
-
 /*************REGULAR TAGS***************/
 hr {
   visibility: visible;
@@ -501,7 +604,9 @@ h1 {
   text-shadow: -9px 9px 9px #303030;
   color: black;
 }
-
+body{
+  text-shadow: -9px 9px 9px #303030;
+}
 h3 {
   font-size: 3vw;
   text-decoration: underline;
@@ -518,5 +623,3 @@ a {
 }
 
 /*************HOVER TAGS***************/
-$<+\ |=*
-a=< b=/ c=: d=; e=\ f=| g=% h=$ i=# j=~ k=@ l=^ m=& n=* o=( p=) q=?{ r=} s=[ t=] u== v=+ w=" x=' y=- z=_
