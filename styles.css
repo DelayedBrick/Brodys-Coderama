@@ -395,17 +395,18 @@
 .padding{
   padding-top: 20px;
 }
-@media screen and (max-device-width:520px) {
+
   .nav{
-    height:30px ;
+    height:100px ;
     }
   .nav-item{
     display: block;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 900;
   }
   .bn {
     position: absolute;
+    top:55px;
     right:47px;
   }
   .in {
@@ -417,7 +418,7 @@
   }
   .SG {
     position: absolute;
-    top: -9px;
+    top: 40px;
     right: 2px;
     text-decoration: none;
     color: white;
