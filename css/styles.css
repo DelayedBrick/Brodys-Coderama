@@ -395,6 +395,40 @@
 .padding{
   padding-top: 20px;
 }
+@media (max-width:400px) {
+  .nav{
+    height:100px ;
+    }
+  .nav-item{
+    display: block;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  .bn {
+    position: absolute;
+    right:47px;
+  }
+  .in {
+    text-shadow: -9px 9px 7px #303030;
+    text-decoration: underline;
+    font-family: 'Special Elite', cursive;
+    line-height: 1.5;
+    font-size: 40px;
+  }
+  .SG {
+    position: absolute;
+    top: -9px;
+    right: 2px;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    opacity: 1;
+    font-family: fantasy;
+    transition: 0.3s;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px grey;
+  }
+}
 /*this is the title section*/
 #title-top{
   background-color:blue;
@@ -409,33 +443,6 @@
 }
 .title-img{
   width:30%;
-}
-@media (max-width:510px) {
-  .nav{
-    height:100px ;
-    }
-  .nav-item{
-    display: block;
-    font-size: 50px;
-    font-weight: 900;
-  }
-  .bn {
-    position: absolute;
-    right:47px;
-  }
-  .SG {
-    position: absolute;
-    top: -9px;
-    right: 2px;
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    opacity: 1;
-    font-family: fantasy;
-    transition: 0.3s;
-    font-size: 40px;
-    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px grey;
-  }
 }
 /*this is the accomplishment section*/
 #accomplishments{
