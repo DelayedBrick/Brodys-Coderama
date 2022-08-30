@@ -395,7 +395,7 @@
 .padding{
   padding-top: 20px;
 }
-@media (max-width:400px) {
+@media (max-width:500px) {
   .nav{
     height:100px ;
     }
@@ -655,7 +655,6 @@ h1 {
   font-size: 5vw;
   text-shadow: -9px 9px 9px #303030;
   color: black;
-  font-style: italic;
 }
 body{
   text-shadow: -9px 9px 9px #303030;
@@ -669,6 +668,7 @@ h3 {
   color: black;
   font-weight: 100;
   padding: 0 10% 0;
+  font-family: monospace;
 }
 
 a {
