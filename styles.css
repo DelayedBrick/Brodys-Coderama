@@ -412,11 +412,12 @@
 }
 @media (max-width:510px) {
   .nav{
-    height:43px ;
+    height:100px ;
     }
   .nav-item{
-    font-size: 17px;
-    font-weight: 500;
+    display: block;
+    font-size: 50px;
+    font-weight: 900;
   }
   .bn {
     position: absolute;
