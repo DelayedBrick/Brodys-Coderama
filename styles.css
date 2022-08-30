@@ -655,6 +655,7 @@ h1 {
   font-size: 5vw;
   text-shadow: -9px 9px 9px #303030;
   color: black;
+  font-style: italic;
 }
 body{
   text-shadow: -9px 9px 9px #303030;
