@@ -439,7 +439,7 @@
   .SG {
     position: absolute;
     top: 9px;
-    right: 2px;
+    right: 5px;
     text-decoration: none;
     color: white;
     font-size: 25px;
@@ -450,7 +450,7 @@
     text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px grey;
   }
   .footer-headers {
-    font-size: 10px;
+    font-size: 8px;
     text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px black;
   }
   .footer-button {
