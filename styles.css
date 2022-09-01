@@ -275,7 +275,7 @@
   color: black;
 }
 
-.bn {
+.info-button {
   position: absolute;
   top: 5px;
   margin-left: 6px;
@@ -283,7 +283,7 @@
   color: white;
 }
 
-.in {
+.info-text {
   text-shadow: -9px 9px 7px #303030;
   text-decoration: underline;
   font-family: 'Special Elite', cursive;
@@ -291,14 +291,14 @@
   font-size: 24.8px;
 }
 
-.tin {
+.info-label {
   font-size: 100px;
   margin-left: 100px;
   font-family: 'Pattaya', sans-serif;
   text-shadow: -9px 9px 7px #303030;
 }
 
-.can {
+.canvas {
   outline-width: 5px;
   outline-color: black;
   outline-style: solid;
@@ -315,6 +315,11 @@
   top: 0;
   z-index: 100;
 }
+.threeD{
+  font-size: 200px;
+  text-shadow: 15px 0px blue, 20px 0px 20px black;
+  color: darkblue;
+}
 
 .nav-link {
   color: grey;
@@ -327,7 +332,7 @@
   color: black;
 }
 
-.me-2 {
+.search-button {
   margin-top: 10px;
   width: 600px;
   position: absolute;
@@ -399,11 +404,18 @@
   position: absolute;
   visibility: hidden;
 }
+@media (max-width:590px) {
+  .dot{
+    visibility: hidden;
+    position: static;
+  }
+}
+/*this is the mobile friendly code*/
 @media screen and (max-device-width:520px) {
   .nav{
     height:35px ;
     }
-    .me-2 {
+    .search-button {
       margin-top: 10px;
       width: 150px;
       position: absolute;
@@ -423,13 +435,13 @@
     font-size: 10px;
     font-weight: 900;
   }
-  .bn {
+  .info-button {
     position: absolute;
     height:10px;
     right:47px;
     visibility: hidden;
   }
-  .in {
+  .info-text {
     text-shadow: -9px 9px 7px #303030;
     text-decoration: underline;
     font-family: 'Special Elite', cursive;
@@ -463,6 +475,15 @@
   .dot{
     visibility: hidden;
     position: static;
+  }
+}
+@media (max-device-width:800px) {
+  .cloud {
+    position: absolute;
+    right: 200px;
+    opacity: 0.8;
+    top: 50px;
+    z-index: 99;
   }
 }
 /*this is the title section*/
@@ -623,7 +644,7 @@
   box-shadow: 1px 1px 2px black, 0 0 45px lightgreen, 0 0 30px green;
 }
 
-.bn:hover {
+.info-button:hover {
   opacity: 1;
   background-color: #3b3b3b;
   box-shadow: 1px 1px 2px black, 0 0 15px darkgrey, 0 0 5px lightgrey;
@@ -703,7 +724,6 @@ h3 {
   font-weight: 100;
   padding: 0 10% 0;
   font-weight: 100;
-  color:green;
 }
 
 a {
