@@ -378,7 +378,7 @@
     position: static;
   }
 }
-@media (max-device-width:800px; min-device-width:550) {
+@media (max-device-width:800px; min-device-width:550px) {
   .cloud {
     position: absolute;
     right: 200px;
