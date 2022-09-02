@@ -1,4 +1,28 @@
 /***************CLASS TAGS*****************/
+/*this is code for my top projects*/
+.Brody {
+  text-decoration: none;
+  color: darkblue;
+  transition: 0.5s;
+}
+.abouts {
+  opacity: 0.9;
+}
+.hidden {
+  z-index: -1;
+  position: relative;
+  visibility: hidden;
+  font-size: 20px;
+  text-align: center;
+}
+.hr-setup {
+  visibility: visible;
+  width: 100%;
+  height: 4px;
+  color: black;
+  opacity: 1;
+  box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 2), 0 6px 30px 0 rgba(0, 0, 0, 0.9);
+}
 .profile_picture {
   border-radius: 20%;
   outline-width: 2px;
@@ -10,49 +34,13 @@
   margin-left: 1px;
   box-shadow: 1px 4px 9px 0 rgba(0, 0, 0, 1.5), 0 1px 80px 0 rgba(0, 0, 0, 0.30);
 }
-
-.test {
-  font-size: 5vw;
-}
-
 .link {
   font-size: 6vw;
   font-family: 'Pattaya', sans-serif;
   color: darkblue;
   transition: 0.5s;
   font-weight: 900;
-}
-
-.information {
-  width: 10px;
-  height: 800px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: grey;
-  border-radius: 1%;
-  font-size: 1px;
-  color: grey;
-  visibility: visible;
-  font-family: serif;
-  line-height: 1;
-}
-
-.testing-font {
-  color: lightblue;
-  opacity: 0.8;
-}
-
-.outline {
-  outline-color: black;
-  outline-width: 5px;
-  outline-style: solid;
-}
-
-.Brody {
-  text-decoration: none;
-  color: darkblue;
-  transition: 0.5s;
+  text-shadow: -1px 1px 2px black,-9px 9px 9px #303030;
 }
 
 .top {
@@ -62,7 +50,13 @@
   font-weight: 900;
   margin-bottom: 10px;
 }
-
+.abouts{
+  font-family: 'Shrikhand', cursive;
+  font-family: 'Alumni Sans Collegiate One', sans-serif;
+  color: black;
+  font-weight: 500;
+  font-size: 7vw;
+}
 .Game {
   width: 60%;
   border-radius: 5%;
@@ -72,7 +66,6 @@
   transition: 0.5s;
   margin-bottom: 20px;
 }
-
 .cloud {
   position: absolute;
   right: 200px;
@@ -111,7 +104,7 @@
   top: 45px;
   box-shadow: 1px 1px 90px 16px yellow;
 }
-
+/*this is for the your masterpeices section*/
 .sun-project {
   border-radius: 100%;
   position: absolute;
@@ -120,9 +113,23 @@
   top: 45px;
   box-shadow: 1px 1px 90px 16px yellow;
 }
-
-.mountain {
+.link-MP{
+  font-size: 6vw;
+  font-family: 'Pattaya', sans-serif;
+  color: darkblue;
+  transition: 0.5s;
+  font-weight: 900;
+  text-shadow: -1px 1px 2px blue,-9px 9px 9px #303030;
+}
+.dirt{
+  margin-top: 22.7vw;
+  background-image:linear-gradient(#f0522d,#a0522d);
+  color: black;
   width: 100%;
+  visibility: visible;
+}
+.padding{
+  padding-top: 20px;
 }
 .M-text {
   position: absolute;
@@ -135,34 +142,6 @@
   z-index: 2;
   text-shadow: 1px 1px 2px black, 0 0 25px lightgreen, 0 0 5px green;
 }
-@media (max-width:1028px){
-  .M-text {
-    position: absolute;
-    top: 50px;
-    padding-left: 3%;
-    font-family: 'Pattaya', sans-serif;
-    font-size: 13vw;
-    text-align: center;
-    color: blue;
-    z-index: 2;
-    text-shadow: 1px 1px 2px black, 0 0 25px lightgreen, 0 0 5px green;
-  }
-}
-
-.footer-headers {
-  font-size: 30px;
-  text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px black;
-}
-
-.test {
-  filter: grayscale(100%);
-}
-
-.test:active {
-  transform: rotate(-7deg);
-  filter: grayscale(0);
-}
-
 .land {
   position: absolute;
   top: 90px;
@@ -208,27 +187,31 @@
 .your-MP {
   width: 23%;
 }
+/*this is the footer section code*/
 
-.space {
-  height: 25vw;
+.footer-headers {
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px black;
 }
-
+.footer-button {
+  width: 125px;
+  margin: 0;
+  padding: 5px;
+  text-shadow: 1px 1px 2px black, 0 0 25px darkgrey, 0 0 5px lightgrey;
+}
+.no-pad {
+  padding: 0.4rem;
+}
+.no-border {
+  border-width: 0;
+}
+/*************navbar code****************/
 .navlink {
   margin-left: 60px;
   color: white;
   margin-top: 7px;
   font-size: 20px;
 }
-
-.setup {
-  visibility: visible;
-  width: 100%;
-  height: 4px;
-  color: black;
-  opacity: 1;
-  box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 2), 0 6px 30px 0 rgba(0, 0, 0, 0.9);
-}
-
 .SG {
   position: absolute;
   top: -9px;
@@ -246,43 +229,6 @@
 .nav {
   background-color: #5ec9ff;
 }
-
-.bottom-links {
-  position: absolute;
-  left: 20%;
-  text-decoration: none;
-  color: black;
-}
-
-.bottom-links2 {
-  position: absolute;
-  left: 65%;
-  text-decoration: none;
-  color: black;
-}
-
-.bottom-link {
-  position: absolute;
-  left: 28%;
-  text-decoration: none;
-  color: black;
-}
-
-.bottom-link2 {
-  position: absolute;
-  left: 64%;
-  text-decoration: none;
-  color: black;
-}
-
-.info-button {
-  position: absolute;
-  top: 5px;
-  margin-left: 6px;
-  transition: 0.3s;
-  color: white;
-}
-
 .info-text {
   text-shadow: -9px 9px 7px #303030;
   text-decoration: underline;
@@ -297,7 +243,6 @@
   font-family: 'Pattaya', sans-serif;
   text-shadow: -9px 9px 7px #303030;
 }
-
 .canvas {
   outline-width: 5px;
   outline-color: black;
@@ -309,16 +254,18 @@
   top: 10px;
   right: 10px;
 }
+.info-button {
+  position: absolute;
+  top: 5px;
+  margin-left: 6px;
+  transition: 0.3s;
+  color: white;
+}
 
 .navstick {
   position: sticky;
   top: 0;
   z-index: 100;
-}
-.threeD{
-  font-size: 200px;
-  text-shadow: 15px 0px blue, 20px 0px 20px black;
-  color: darkblue;
 }
 
 .nav-link {
@@ -326,12 +273,7 @@
   transition: 0.5s;
   text-transform: capitalize;
 }
-
-.testing-font {
-  font-family: 'Rubik Marker Hatch', cursive;
-  color: black;
-}
-
+/*this is the comment section code*/
 .search-button {
   margin-top: 10px;
   width: 600px;
@@ -343,74 +285,33 @@
   box-shadow: 1px 1px 2px black, 0 0 15px darkgrey, 0 0 5px lightgrey;
 }
 
-.no-pad {
-  padding: 0.4rem;
-}
-
 .send {
   margin-top: 10px;
   margin-left: 605px;
   text-shadow: 1px 1px 2px black, 0 0 25px darkgrey, 0 0 5px lightgrey;
 }
-
-.spacing {
-  margin-top: 22.7vw;
-  background-image:linear-gradient(#f0522d,#a0522d);
-  color: black;
-  width: 100%;
-  visibility: visible;
+/*this is the mobile friendly code*/
+@media (max-width:1028px){
+  .M-text {
+    position: absolute;
+    top: 50px;
+    padding-left: 3%;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 13vw;
+    text-align: center;
+    color: blue;
+    z-index: 2;
+    text-shadow: 1px 1px 2px black, 0 0 25px lightgreen, 0 0 5px green;
+  }
 }
 
-.spacing-text {
-  padding-top: 30px;
-  padding-right: 60px;
-  font-size: 20px;
-  visibility: visible;
-}
-
-.wait {
-  width: 100%;
-  height: 100%;
-  cursor: wait;
-}
-
-.hidden {
-  z-index: -1;
-  position: relative;
-  visibility: hidden;
-  font-size: 20px;
-  text-align: center;
-}
-
-.no-space {
-  position: absolute;
-  bottom: -550;
-}
-
-.footer-button {
-  width: 125px;
-  margin: 0;
-  padding: 5px;
-  text-shadow: 1px 1px 2px black, 0 0 25px darkgrey, 0 0 5px lightgrey;
-}
-
-.no-border {
-  border-width: 0;
-}
-.padding{
-  padding-top: 20px;
-}
-.dot{
-  position: absolute;
-  visibility: hidden;
-}
 @media (max-width:590px) {
   .dot{
     visibility: hidden;
     position: static;
   }
 }
-/*this is the mobile friendly code*/
+
 @media screen and (max-device-width:520px) {
   .nav{
     height:35px ;
@@ -477,7 +378,7 @@
     position: static;
   }
 }
-@media (max-device-width:800px) {
+@media (max-device-width:800px; min-device-width:550) {
   .cloud {
     position: absolute;
     right: 200px;
@@ -498,6 +399,11 @@
     font-size: 10px;
     text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px grey;
   }
+}
+/*this is my about section*/
+.dot{
+  position: absolute;
+  visibility: hidden;
 }
 /*this is the title section*/
 #title-top{
@@ -596,12 +502,7 @@
   text-align: center;
   font-size: 4vw;
 }
-
-/*.nav-link{
-    font-size: 3vw;
-    margin-left: 2px;
-  }
-    /***************WHAT I'M WORKINGON CODE*****************/
+/***************WHAT I'M WORKINGON CODE*****************/
 .Logo {
   width: 25%;
   box-shadow: -9px 9px 9px #303030;
@@ -689,6 +590,9 @@
 .link:hover {
   color: blue;
 }
+.link-MP:hover {
+  color: blue;
+}
 
 .Game:hover {
   width: 60.5%;
@@ -719,7 +623,6 @@ hr {
   background-color: black;
   box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 2), 0 6px 30px 0 rgba(0, 0, 0, 0.9);
 }
-
 h1 {
   font-size: 5vw;
   text-shadow: -9px 9px 9px #303030;
@@ -736,7 +639,6 @@ h3 {
   text-shadow: -9px 9px 9px #303030;
   font-weight: 100;
   padding: 0 10% 0;
-  font-weight: 100;
 }
 
 a {
