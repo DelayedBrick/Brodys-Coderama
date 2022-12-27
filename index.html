@@ -1,342 +1,350 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Brody's Coderama</title>
+        <!--this is where it downloads bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <!--this is where it brings in my css-->
+        <link rel="stylesheet" href="styles.css">
+        <!--this is my favicon-->
+        <link rel="icon" href="BC-cool.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--this brings in my font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap" rel="stylesheet">
+      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--this brings in my special elite font-->
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+        <!--this is the faster one font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+        <!--this brings in the coiny font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
+        <!--this brings the rubik puddles font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
 
-<head>
-  <!--this has like the name of the website and the favicon and the code that brings over the css -->
-  <meta charset="utf-8">
-  <title>Brody's Coderama</title>
-  <!--this is where it downloads bootstrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  <!--this is where it brings in my css-->
-  <link rel="stylesheet" href="css/styles.css">
-  <!--this is my favicon-->
-  <link rel="icon" href="BC-cool.jpg">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!--this brings in my font-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Press+Start+2P&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!--this brings in my special elite font-->
-  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="BC-cool.jpg">
+        <!--this brings in the rubik bubbles font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
 </head>
+    <body>
+    </nav>
 
-<body style="background-color:#2db8ff; background-image: linear-gradient(#2db8ff,#008dd5)">
-
-
-
-  <!--<hr class="setup"size="4"; color =#000000 noshad>-->
-  <!--uploading your on games the code is below this comment-->
-  <!--<h1 class="M-text">advertised projects</h1>
-      <img class="mountain"src="https://cdn-icons-png.flaticon.com/128/3419/3419768.png" alt="">-->
-  <!--<div class="bottom-tab">
-        <h4 class="help"><a class="help" href="#">help</a></h4>
-      </div>-->
-  </nav>
-
-  <ul class="nav nav-tabs bg-black navstick" id="myTab" role="tablist">
-    <li class="nav-item" role="presentation">
-      <button class="nav-link active" id="home-tab navbarNav" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button btn-secondary" role="tab" aria-controls="home-tab-pane" aria-selected="true">BrodyDB</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">projects</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">comments</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="about-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="false">about</button>
-    </li>
-
-    <li>
-      <button class="btn btn-outline-dark btn-sm info-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">info</button>
-
-      <div class="offcanvas offcanvas-end offcanvas-light bg-secondary canvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title info-label" id="offcanvasRightLabel">info</h5>
-          <button type="button" class="btn-close close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <em class="info-text">this website is made from html, css, and javascript this is my first website to share with other people. have fun uploading projects this might be behind on my top five projects if it is message me here link to spot to
-            message if you need help message me at that link.</em>
-        </div>
-      </div>
-    </li>
-
-    <li>
-      <a href="" class="nav-tabs-brand ms-auton SG">BC
-        <!--brody's codurama  -->
-      </a>
-    </li>
-  </ul>
-  <div class="tab-content" id="myTabContent">
-    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-      <center>
-        <!--this is my top projects-->
-        <img class="sun" src="https://cdn-icons-png.flaticon.com/128/146/146182.png" alt="sun">
-        <img class="cloud" src="https://cdn-icons-png.flaticon.com/128/616/616682.png" alt="cloud">
-        <img class="cloud4" src="https://cdn-icons-png.flaticon.com/128/616/616682.png" alt="cloud">
-        <table>
-          <td>
-            <h1 class="top"><strong>top 5 projects from </strong><a class="Brody" href="https://scratch.mit.edu/users/BrodyDB/">BrodyDB </a></h1>
-          </td>
-          <td><a href="https://scratch.mit.edu/users/BrodyDB/"><img class="profile_picture" src="https://cdn2.scratch.mit.edu/get_image/user/62922211_60x60.png" alt="BrodyDB"></a></td>
-        </table>
-        <h2 class="hidden a=z b=y c=x d=w e=v f=u g=t h=s i=r j=q k=p l=o m=n">szev ufm</h2>
-        <img class="cloud2" src="https://cdn-icons-png.flaticon.com/128/616/616682.png" alt="cloud">
-        <img class="cloud3" src="https://cdn-icons-png.flaticon.com/128/616/616682.png" alt="cloud">
-        <!--my top 5 projects the code is below this-->
-        <center>
-          <hr size="4" ; color=#000000 noshade class="hr-setup">
-          <br>
-          <a href="https://scratch.mit.edu/projects/662201032"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/662201032.png" alt="BrodyDB most loved"></a>
-          <a href="https://scratch.mit.edu/projects/662201032">
-            <h1 class="link">1.secret mission | a platformer</h1>
-          </a>
-          <h1 class="abouts">About</h1>
-          <h3 class="color-test"><em>a red square trying to save the world cause the aliens were going to use a rocket they made to destroy the earth</em></h3>
-          <hr size="4" ; color=#000000 noshade class="hr-setup">
-          <br>
-          <a href="https://scratch.mit.edu/projects/650137348"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/650137348.png" alt="BrodyDB second most loved" /></a>
-          <a href="https://scratch.mit.edu/projects/65013734">
-            <h1 class="link">2.mountains a scrolling platformer</h1>
-          </a>
-          <h1 class="abouts">About</h1>
-          <h3><em>a red square adventuring the mountains</em> </h3>
-          <hr size="4" ; color=#000000 noshade class="hr-setup">
-          <br>
-          <a href="https://scratch.mit.edu/projects/600323213/"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/600323213.png" alt="BrodyDB third most loved" /></a>
-          <a href="https://scratch.mit.edu/projects/600323213/">
-            <h1 class="link">3.the Adventures of Scrolly Mcplatformer</h1>
-          </a>
-          <h1 class="abouts">About</h1>
-          <h3><em>a cowboy trying to make it threw a platformer while fighting off robots</em></h3>
-          <hr size="4" ; color=#000000 noshade class="hr-setup">
-          <br>
-          <a href="https://scratch.mit.edu/projects/694734220/"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/694734220.png" alt="BrodyDB fourth most loved" /></a>
-          <a href="https://scratch.mit.edu/projects/694734220/">
-            <h1 class="link">4.storm | a platformer</h1>
-          </a>
-          <h1 class="abouts">About</h1>
-          <h3><em>a red square that went on adventure to travel the world and he runs in to storms along the way </em></h3>
-          <hr size="4" ; color=#000000 noshade class="hr-setup">
-          <br>
-          <a href="https://scratch.mit.edu/projects/672982922"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt="BrodyDB fifth most loved" /></a>
-          <a href="https://scratch.mit.edu/projects/672982922">
-            <h1 class="link">5.☁ MSP ☁online</h1>
-          </a>
-          <h1 class="abouts"><i>about</i></h1>
-          <h3><em>this is more of a multiplayer platformer to play with friends so get some friends and you can play around and have fun here</em></h3>
-          <hr size="4" ; color=#000000 noshade class="hr-setup">
-    </div>
-
-    <div class="tab-pane fade back " id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-      <!--this is the code where you put up your on projects-->
-      <div class="your-MP bg-blue">
-        <img class="sun-project" src="https://cdn-icons-png.flaticon.com/128/146/146182.png" alt="sun">
-        <h1 class="M-text">Your masterpeices</h1>
-        <img class="land" src="https://cdn-icons-png.flaticon.com/128/8228/8228751.png" alt="land">
-        <img class="land2" src="https://cdn-icons-png.flaticon.com/128/8228/8228751.png" alt="land">
-        <img class="land3" src="https://cdn-icons-png.flaticon.com/128/8228/8228751.png" alt="land">
-        <img class="land4" src="https://cdn-icons-png.flaticon.com/128/8228/8228751.png" alt="land">
-        <img class="land5" src="https://cdn-icons-png.flaticon.com/128/8228/8228751.png" alt="land">
-        <img class="land6" src="https://cdn-icons-png.flaticon.com/128/8228/8228751.png" alt="land">
-      </div>
-      <div class="dirt">
-        <center>
-          <img src="" alt="">
-          <h1 class="top-5-header">this has the top 5 projects of the week</h1>
-          <div style="height:70px;">
+    <ul class="nav nav-tabs bg-black navstick" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab navbarNav" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button btn-secondary" role="tab" aria-controls="home-tab-pane" aria-selected="true">BrodyDB</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">projects</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">comments</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="about-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="false">about</button>
+      </li>
+  
+      <li>
+        <button class="btn btn-outline-dark btn-sm info-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Info</button>
+  
+        <div class="offcanvas offcanvas-end offcanvas-light bg-secondary canvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title info-label" id="offcanvasRightLabel">Info</h5>
+            <button type="button" class="btn-close close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner padding">
-              <div class="carousel-item">
-                <a href="#"><img class="Game" style="width:50%;" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt=""></a>
-                <h1 class="link-MP"><a href="#">2.game name | a;skldjf</a>
-                  <h1>
-              </div>
-              <div class="carousel-item">
-                <a href="#"><img class="Game" style="width:50%;" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt=""></a>
-                <h1 class="link-MP"><a href="#">3.game name | a;skldjf</a>
-                  <h1>
-              </div>
-              <div class="carousel-item">
-                <a href="#"><img class="Game" style="width:50%;" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt=""></a>
-                <h1 class="link-MP"><a href="#">4.game name | a;skldjf</a>
-                  <h1>
-              </div>
-              <div class="carousel-item">
-                <a href="#"><img class="Game" style="width:50%;" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt=""></a>
-                <h1 class="link"><a href="#">5.game name | a;skldjf</a>
-                  <h1>
-              </div>
-              <div class="carousel-item active">
-                <a href="#"><img class="Game" style="width:50%;" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt=""></a>
-                <h1 class="link-MP"><a href="#">1.game name | a;skldjf</a>
-                  <h1>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" name="button">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" name="button">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden"></span>
-            </button>
+          <div class="offcanvas-body">
+            <center>
+            <em class="info-text">this website is made from html, css, and javascript this is my first website to share with other people. have fun uploading projects this might be behind on my top five projects if it is message me here link to spot to
+              message if you need help message me at that link.</em>
           </div>
-
-      </div>
-
-
-      <!--<img src="https://cdn-icons-png.flaticon.com/128/459/459666.png" alt="grass">-->
-    </div>
-    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-      <h1>this it the comment section of this website</h1>
-      <img src="my-Profile.png" alt="" style="width:100%;  filter: blur(4px);  position:absolute; top:10px; left:0; Z-index:-1;">
-      <img src="my-profile-bottom.png" alt="" style="width:100%;  filter: blur(4px);  position:absolute; top:45vw; left:0; Z-index:-1;">
-
-
-      <input class="form-control me-2 search-button" type="search" placeholder="comment..." aria-label="Search">
-      <!--this is the comment section code-->
-      <button class="btn send btn-success" type="submit">send</button>
-    </div>
-    <div class="tab-pane fade" id="about-tab-pane" role="tabpanel" aria-labelledby="aboutt-tab" tabindex="0">
-      <section class="about">
-        <section id="title-top">
-          <h1 class="title">this website has my top 5 projects and you can upload your on scratch games</h1>
-          <img class="title-img" src="https://cdn-icons-png.flaticon.com/128/3979/3979433.png" alt="">
-        </section>
-        <section id="accomplishments">
+        </div>
+      </li>
+  
+      <li>
+        <a href="" class="nav-tabs-brand ms-auton SG">BC
+          <!--brody's codurama  -->
+        </a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <center>
+          <!--this is my top projects-->
+          <img class="sun" src="https://cdn-icons-png.flaticon.com/128/146/146182.png" alt="sun">
+          <img class="cloud" src="https://cdn-icons-png.flaticon.com/128/616/616682.png" alt="cloud">
+          <img class="cloud4" src="https://cdn-icons-png.flaticon.com/128/616/616682.png" alt="cloud">
+          <table>
+            <td>
+              <h1 class="top"><strong>top 5 projects from </strong><a class="Brody" href="https://scratch.mit.edu/users/BrodyDB/">BrodyDB </a></h1>
+            </td>
+            <td><a href="https://scratch.mit.edu/users/BrodyDB/"><img class="profile_picture" src="https://cdn2.scratch.mit.edu/get_image/user/62922211_60x60.png" alt="BrodyDB"></a></td>
+          </table>
+          <h2 class="hidden a=z b=y c=x d=w e=v f=u g=t h=s i=r j=q k=p l=o m=n">szev ufm</h2>
+          <img class="cloud2" src="https://cdn-icons-png.flaticon.com/128/616/616682.png" alt="cloud">
+          <img class="cloud3" src="https://cdn-icons-png.flaticon.com/128/616/616682.png" alt="cloud">
+          <!--my top 5 projects the code is below this-->
           <center>
-            <h1 class="acc-h1">accomplishments</h1>
-            <div class="container text-center">
-              <center>
-                <div class="row row-cols-3 row-cols-sm-1 row-cols-lg-3 g-3 g-lg-3">
-                  <h1 class="dot">.</h1>
-                  <div class="col">
-                    <div class="p-3">
-                      <img class="icon phone" src="https://cdn-icons-png.flaticon.com/128/0/488.png" alt="">
-                      <h2 class="acc-header">mobile friendly</h2>
-                      <h4 class="acc-text">this is considered mobile friendly by google test</h4>
-                    </div>
-                  </div>
-                  <h1 class="dot">.</h1>
-                  <h1 class="dot">.</h1>
-                  <div class="col">
-                    <div class="p3">
-                      <img class="icon" src="https://cdn-icons-png.flaticon.com/128/2920/2920277.png" alt="">
-                      <h2 class="acc-header">Code</h2>
-                      <h4 class="acc-text">this uses javascript, css, and html</h4>
-                    </div>
-                  </div>
-                  <h1 class="dot">.</h1>
-                  <h1 class="dot">.</h1>
-                  <div class="col">
-                    <div class="p3">
-                      <img class="icon" src="https://cdn-icons-png.flaticon.com/128/2972/2972316.png" alt="">
-                      <h2 class="acc-header">website</h2>
-                      <h4 class="acc-text">this is my first website to post</h4>
-                    </div>
-                  </div>
-                  <h1 class="dot">.</h1>
+            <hr size="4" ; color=#000000 noshade class="hr-setup">
+            <br>
+            <a href="https://scratch.mit.edu/projects/662201032"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/662201032.png" alt="BrodyDB most loved"></a>
+            <a href="https://scratch.mit.edu/projects/662201032">
+              <h1 class="link">1.secret mission | a platformer</h1>
+            </a>
+            <h1 class="abouts">About</h1>
+            <h3 class="color-test"><em>a red square trying to save the world cause the aliens were going to use a rocket they made to destroy the earth</em></h3>
+            <hr size="4" ; color=#000000 noshade class="hr-setup">
+            <br>
+            <a href="https://scratch.mit.edu/projects/650137348"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/650137348.png" alt="BrodyDB second most loved" /></a>
+            <a href="https://scratch.mit.edu/projects/65013734">
+              <h1 class="link">2.mountains a scrolling platformer</h1>
+            </a>
+            <h1 class="abouts">About</h1>
+            <h3><em>a red square adventuring the mountains</em> </h3>
+            <hr size="4" ; color=#000000 noshade class="hr-setup">
+            <br>
+            <a href="https://scratch.mit.edu/projects/600323213/"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/600323213.png" alt="BrodyDB third most loved" /></a>
+            <a href="https://scratch.mit.edu/projects/600323213/">
+              <h1 class="link">3.the Adventures of Scrolly Mcplatformer</h1>
+            </a>
+            <h1 class="abouts">About</h1>
+            <h3><em>a cowboy trying to make it threw a platformer while fighting off robots</em></h3>
+            <hr size="4" ; color=#000000 noshade class="hr-setup">
+            <br>
+            <a href="https://scratch.mit.edu/projects/694734220/"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/694734220.png" alt="BrodyDB fourth most loved" /></a>
+            <a href="https://scratch.mit.edu/projects/694734220/">
+              <h1 class="link">4.storm | a platformer</h1>
+            </a>
+            <h1 class="abouts">About</h1>
+            <h3><em>a red square that went on adventure to travel the world and he runs in to storms along the way </em></h3>
+            <hr size="4" ; color=#000000 noshade class="hr-setup">
+            <br>
+            <a href="https://scratch.mit.edu/projects/672982922"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt="BrodyDB fifth most loved" /></a>
+            <a href="https://scratch.mit.edu/projects/672982922">
+              <h1 class="link">5.☁ MSP ☁online</h1>
+            </a>
+            <h1 class="abouts">About</h1>
+            <h3><em>this is more of a multiplayer platformer to play with friends so get some friends and you can play around and have fun here</em></h3>
+            <hr size="4" ; color=#000000 noshade class="hr-setup">
+      </div>
+  
+      <div class="tab-pane fade back " id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <!--this is the code where you put up your on projects-->
+        <div class="your-MP bg-blue">
+          <img class="sun-project" src="https://cdn-icons-png.flaticon.com/128/146/146182.png" alt="sun">
+          <h1 class="M-text">Your masterpeices</h1>
+          <img class="land" src="https://cdn-icons-png.flaticon.com/128/8228/8228751.png" alt="land">
+          <img class="land2" src="https://cdn-icons-png.flaticon.com/128/8228/8228751.png" alt="land">
+          <img class="land3" src="https://cdn-icons-png.flaticon.com/128/8228/8228751.png" alt="land">
+          <img class="land4" src="https://cdn-icons-png.flaticon.com/128/8228/8228751.png" alt="land">
+          <img class="land5" src="https://cdn-icons-png.flaticon.com/128/8228/8228751.png" alt="land">
+          <img class="land6" src="https://cdn-icons-png.flaticon.com/128/8228/8228751.png" alt="land">
+        </div>
+        <div class="dirt">
+          <center>
+            <img src="" alt="">
+            <h1 class="top-5-header">this has the top 5 projects of the week</h1>
+            <div style="height:70px;">
+            </div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner padding">
+                <div class="carousel-item">
+                  <a href="#"><img class="Game" style="width:50%;" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt=""></a>
+                  <h1 class="link-MP"><a href="#">2.game name | a;skldjf</a>
+                    <h1>
                 </div>
+                <div class="carousel-item">
+                  <a href="#"><img class="Game" style="width:50%;" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt=""></a>
+                  <h1 class="link-MP"><a href="#">3.game name | a;skldjf</a>
+                    <h1>
+                </div>
+                <div class="carousel-item">
+                  <a href="#"><img class="Game" style="width:50%;" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt=""></a>
+                  <h1 class="link-MP"><a href="#">4.game name | a;skldjf</a>
+                    <h1>
+                </div>
+                <div class="carousel-item">
+                  <a href="#"><img class="Game" style="width:50%;" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt=""></a>
+                  <h1 class="link"><a href="#">5.game name | a;skldjf</a>
+                    <h1>
+                </div>
+                <div class="carousel-item active">
+                  <a href="#"><img class="Game" style="width:50%;" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt=""></a>
+                  <h1 class="link-MP"><a href="#">1.game name | a;skldjf</a>
+                    <h1>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" name="button">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" name="button">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+              </button>
             </div>
+  
+        </div>
+  
+  
+        <!--<img src="https://cdn-icons-png.flaticon.com/128/459/459666.png" alt="grass">-->
+      </div>
+      <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+        <!--this is my comment section-->
+        <h1 class="comment-section-sign">comment section</h1>
+        <img src="my-Profile.png" alt="" style="width:100%;  filter: blur(4px);  position:absolute; top:10px; left:0; Z-index:-1;">
+        <img src="my-profile-bottom.png" alt="" style="width:100%;  filter: blur(4px);  position:absolute; top:45vw; left:0; Z-index:-1;">
+  
+  
+        <input class="form-control me-2 search-button" type="search" placeholder="comment..." aria-label="Search">
+        <!--this is the comment section code-->
+        <button class="btn send btn-success" type="submit">send</button>
+      </div>
+      <div class="tab-pane fade" id="about-tab-pane" role="tabpanel" aria-labelledby="aboutt-tab" tabindex="0">
+        <section class="about">
+          <section id="title-top">
+            <h1 class="title">this website has my top 5 projects and you can upload your on scratch games</h1>
+            <img class="title-img" src="https://cdn-icons-png.flaticon.com/128/3979/3979433.png" alt="">
+          </section>
+          <section id="accomplishments">
+            <center>
+              <h1 class="acc-h1">accomplishments</h1>
+              <div class="container text-center">
+                <center>
+                  <div class="row row-cols-3 row-cols-sm-1 row-cols-lg-3 g-3 g-lg-3">
+                    <h1 class="dot">.</h1>
+                    <div class="col">
+                      <div class="p-3">
+                        <img class="icon phone" src="https://cdn-icons-png.flaticon.com/128/0/488.png" alt="">
+                        <h2 class="acc-header">mobile friendly</h2>
+                        <h4 class="acc-text">this is considered mobile friendly by google test</h4>
+                      </div>
+                    </div>
+                    <h1 class="dot">.</h1>
+                    <h1 class="dot">.</h1>
+                    <div class="col">
+                      <div class="p3">
+                        <img class="icon" src="https://cdn-icons-png.flaticon.com/128/2920/2920277.png" alt="">
+                        <h2 class="acc-header">Code</h2>
+                        <h4 class="acc-text">this uses javascript, css, and html</h4>
+                      </div>
+                    </div>
+                    <h1 class="dot">.</h1>
+                    <h1 class="dot">.</h1>
+                    <div class="col">
+                      <div class="p3">
+                        <img class="icon" src="https://cdn-icons-png.flaticon.com/128/2972/2972316.png" alt="">
+                        <h2 class="acc-header">website</h2>
+                        <h4 class="acc-text">this is my first website to post</h4>
+                      </div>
+                    </div>
+                    <h1 class="dot">.</h1>
+                  </div>
+              </div>
+          </section>
+          <section id="help">
+            <h1 class="help-header">need <img class="help-img" src="https://cdn-icons-png.flaticon.com/128/3279/3279163.png" alt=""> with something</h1>
+            <h4>try going to this link help.link message me there</h4>
+            <h4 class="h4-help">you can help me by going to my <a class="profile-link" href="https://scratch.mit.edu/users/BrodyDB/">profile</a> and hit that follow button</h4>
+          </section>
+          <section id="get-started">
+            <center>
+              <h1 class="started-header">get started on <a class="started-link" href="https://scratch.mit.edu/"><img class="started-img" src="https://cdn-icons-png.flaticon.com/128/919/919846.png" alt=""></a> making games to upload</h1>
+              <h2 class="started-h2">how to create a project</h2>
+            <div class="started-h4-div">
+              <h4 class="started-h4">all you've got to do when you get to the scratch website and you are signed in is click on the create button and then start coding</h4>
+            </div>
+          </section>
         </section>
-        <section id="help">
-          <h1 class="help-header">need <img class="help-img" src="https://cdn-icons-png.flaticon.com/128/3279/3279163.png" alt=""> with something</h1>
-          <h4>try going to this link help.link message me there</h4>
-          <h4 class="h4-help">you can help me by going to my <a class="profile-link" href="https://scratch.mit.edu/users/BrodyDB/">profile</a> and hit that follow button</h4>
-        </section>
-        <section id="get-started">
-          <center>
-            <h1 class="started-header">get started on <a class="started-link" href="https://scratch.mit.edu/"><img class="started-img" src="https://cdn-icons-png.flaticon.com/128/919/919846.png" alt=""></a> making games to upload</h1>
-            <h2 class="started-h2">how to create a project</h2>
-            <h4 class="started-h4">all you got to do when you get to the scratch website and you are signed in is click on the create button and then start coding</h4>
-        </section>
-      </section>
+      </div>
     </div>
-  </div>
-  <!--this is the code for the footer-->
-  <center>
-    <div class="card no-border">
-
-      <div class="card-header bg-dark" style="border-top-color:white; border-top-width:1px; border-top-style:solid;">
-        <div class="container text-center">
-          <div class="row row-cols-4 row-cols-lg-4 g-3 g-lg-4 row-cols-sm-2 row-cols-md-2">
-            <div class="col">
-              <div class="p-3">
-                <h1 class="footer-headers" style="color:white;">scratch</h1>
+    <!--this is the code for the footer-->
+    <center>
+      <div class="card no-border">
+  
+        <div class="card-header bg-dark" style="border-top-color:white; border-top-width:1px; border-top-style:solid;">
+          <div class="container text-center">
+            <div class="row row-cols-4 row-cols-lg-4 g-3 g-lg-4 row-cols-sm-2 row-cols-md-2">
+              <div class="col">
+                <div class="p-3">
+                  <h1 class="footer-headers" style="color:white;">scratch</h1>
+                </div>
+                <div class="no-pad ">
+                  <a href="https://scratch.mit.edu/explore/projects/all" class="btn btn-dark footer-button">Scratch all</a>
+                </div>
+                <div class=" no-pad">
+                  <a href="https://scratch.mit.edu/" class="btn btn-dark footer-button">Scratch</a>
+                </div>
               </div>
-              <div class="no-pad ">
-                <a href="https://scratch.mit.edu/explore/projects/all" class="btn btn-dark footer-button">Scratch all</a>
+              <div class="col">
+                <div class="p-3">
+                  <h1 class="footer-headers" style="color:white;">My stuff</h1>
+                </div>
+                <div class="no-pad">
+                  <a href="https://scratch.mit.edu/projects/713216117/" class="btn btn-dark footer-button">My last Game</a>
+                </div>
+                <div class="no-pad">
+                  <a href="https://scratch.mit.edu/users/BrodyDB/projects/" class="btn btn-dark footer-button">More Games</a>
+                </div>
               </div>
-              <div class=" no-pad">
-                <a href="https://scratch.mit.edu/" class="btn btn-dark footer-button">Scratch</a>
+              <div class="col">
+                <div class="p-3">
+                  <h1 class="footer-headers" style="color:white;">Help</h1>
+                </div>
+                <div class="no-pad">
+                  <a href="a" class="btn btn-dark footer-button">Help</a>
+                </div>
+                <div class="no-pad">
+                  <a href="https://scratch.mit.edu/users/BrodyDB/" class="btn btn-dark footer-button">Follow</a>
+                </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <h1 class="footer-headers" style="color:white;">My stuff</h1>
+              <div class="col">
+                <div class="p-3">
+                  <h1 class="footer-headers" style="color:white;">create</h1>
+                </div>
+                <div class="no-pad">
+                  <a href="working-on.html" class="btn btn-dark footer-button">I'm working on</a>
+                </div>
+                <div class="no-pad">
+                  <a href="https://scratch.mit.edu/users/BrodyDB/" class="btn btn-dark footer-button">Follow</a>
+                </div>
               </div>
-              <div class="no-pad">
-                <a href="https://scratch.mit.edu/projects/713216117/" class="btn btn-dark footer-button">My last Game</a>
+  
+              <div class="col">
+  
               </div>
-              <div class="no-pad">
-                <a href="https://scratch.mit.edu/users/BrodyDB/projects/" class="btn btn-dark footer-button">More Games</a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <h1 class="footer-headers" style="color:white;">Help</h1>
-              </div>
-              <div class="no-pad">
-                <a href="a" class="btn btn-dark footer-button">Help</a>
-              </div>
-              <div class="no-pad">
-                <a href="https://scratch.mit.edu/users/BrodyDB/" class="btn btn-dark footer-button">Follow</a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <h1 class="footer-headers" style="color:white;">create</h1>
-              </div>
-              <div class="no-pad">
-                <a href="working-on.html" class="btn btn-dark footer-button">I'm working on</a>
-              </div>
-              <div class="no-pad">
-                <a href="https://scratch.mit.edu/users/BrodyDB/" class="btn btn-dark footer-button">Follow</a>
-              </div>
-            </div>
-
-            <div class="col">
-
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!--I started making this when I was ten -->
-
-
-    <!--<div class="information outline color">
-        <h3 class="information pos"></h3>
-      </div>-->
-</body>
-
+        
+        <script src="" async defer></script>
+    </body>
 </html>
