@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
+
+
         <meta charset="utf-8">
         <title>Brody's Coderama</title>
         <!--this is where it downloads bootstrap-->
@@ -54,31 +52,47 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="JS/extra.js"></script>
 </head>
     <body>
-    </nav>
-
-    <ul class="nav nav-tabs bg-black navstick" id="myTab" role="tablist">
-      <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="home-tab navbarNav" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button btn-secondary" role="tab" aria-controls="home-tab-pane" aria-selected="true">BrodyDB</button>
+    <ul class="nav nav-tabs bg-dark navstick" id="myTab" role="tablist">
+        <div class="nav-spacing">
+          
+        </div>
+        <li class="nav-item" role="presentation">
+        <button class="nav-link active BrodyDB_tab" id="home-tab navbarNav" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button btn-secondary" role="tab" aria-controls="home-tab-pane" aria-selected="true">BrodyDB</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">projects</button>
+        <button class="nav-link project_tab" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">projects</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">comments</button>
+        <button class="nav-link Comments_tab" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">comments</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="about-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="false">about</button>
+        <button class="nav-link About_tab" id="about-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="false">about</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link SignIn_tab" id="SignIn-tab" data-bs-toggle="tab" data-bs-target="#SignIn-tab-pane" type="button" role="tab" aria-controls="SignIn-tab-pane" aria-selected="false">Sign In</button>
       </li>
   
       <li>
         <button class="btn btn-outline-dark btn-sm info-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Info</button>
   
-        <div class="offcanvas offcanvas-end offcanvas-light bg-secondary canvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-          <div class="offcanvas-header">
+        <div class="offcanvas offcanvas-end canvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <img class="info-image-1 info-image" src="https://uploads.scratch.mit.edu/projects/thumbnails/662201032.png" alt="">
+            <img class="info-image-2 info-image" src="https://uploads.scratch.mit.edu/projects/thumbnails/600323213.png" alt="">
+            <img class="info-image-3 info-image" src="https://uploads.scratch.mit.edu/projects/thumbnails/694734220.png" alt="">
+            <img class="info-image-4 info-image" src="https://uploads.scratch.mit.edu/projects/thumbnails/650137348.png" alt="">
+            <img class="info-image-5 info-image" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt="">
+            <img class="info-image-6 info-image" src="https://cdn2.scratch.mit.edu/get_image/project/713216117_144x108.png" alt="">
+            <div class="offcanvas-header">
             <h5 class="offcanvas-title info-label" id="offcanvasRightLabel">Info</h5>
             <button type="button" class="btn-close close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+          </div>
+          <div>
+            <a href="" class="info-brodyDB">BrodyDB</a>
           </div>
           <div class="offcanvas-body">
             <center>
@@ -87,7 +101,6 @@
           </div>
         </div>
       </li>
-  
       <li>
         <a href="" class="nav-tabs-brand ms-auton SG">BC
           <!--brody's codurama  -->
@@ -95,6 +108,10 @@
       </li>
     </ul>
     <div class="tab-content" id="myTabContent">
+      <div class="b slide-side">
+        a;lsdkjf
+        <h4 class="close-left">X</h4>
+      </div>
       <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
         <center>
           <!--this is my top projects-->
@@ -114,7 +131,7 @@
           <center>
             <hr size="4" ; color=#000000 noshade class="hr-setup">
             <br>
-            <a href="https://scratch.mit.edu/projects/662201032"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/662201032.png" alt="BrodyDB most loved"></a>
+            <a href="https://scratch.mit.edu/projects/662201032"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/662201032.png" alt="BrodyDB's most loved"></a>
             <a href="https://scratch.mit.edu/projects/662201032">
               <h1 class="link">1.secret mission | a platformer</h1>
             </a>
@@ -122,7 +139,7 @@
             <h3 class="color-test"><em>a red square trying to save the world cause the aliens were going to use a rocket they made to destroy the earth</em></h3>
             <hr size="4" ; color=#000000 noshade class="hr-setup">
             <br>
-            <a href="https://scratch.mit.edu/projects/650137348"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/650137348.png" alt="BrodyDB second most loved" /></a>
+            <a href="https://scratch.mit.edu/projects/650137348"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/650137348.png" alt="BrodyDB's second most loved" /></a>
             <a href="https://scratch.mit.edu/projects/65013734">
               <h1 class="link">2.mountains a scrolling platformer</h1>
             </a>
@@ -130,15 +147,17 @@
             <h3><em>a red square adventuring the mountains</em> </h3>
             <hr size="4" ; color=#000000 noshade class="hr-setup">
             <br>
-            <a href="https://scratch.mit.edu/projects/600323213/"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/600323213.png" alt="BrodyDB third most loved" /></a>
+            <a href="https://scratch.mit.edu/projects/600323213/"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/600323213.png" alt="BrodyDB's third most loved" /></a>
             <a href="https://scratch.mit.edu/projects/600323213/">
               <h1 class="link">3.the Adventures of Scrolly Mcplatformer</h1>
             </a>
             <h1 class="abouts">About</h1>
             <h3><em>a cowboy trying to make it threw a platformer while fighting off robots</em></h3>
             <hr size="4" ; color=#000000 noshade class="hr-setup">
+
+
             <br>
-            <a href="https://scratch.mit.edu/projects/694734220/"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/694734220.png" alt="BrodyDB fourth most loved" /></a>
+            <a href="https://scratch.mit.edu/projects/694734220/"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/694734220.png" alt="BrodyDB's fourth most loved" /></a>
             <a href="https://scratch.mit.edu/projects/694734220/">
               <h1 class="link">4.storm | a platformer</h1>
             </a>
@@ -146,7 +165,7 @@
             <h3><em>a red square that went on adventure to travel the world and he runs in to storms along the way </em></h3>
             <hr size="4" ; color=#000000 noshade class="hr-setup">
             <br>
-            <a href="https://scratch.mit.edu/projects/672982922"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt="BrodyDB fifth most loved" /></a>
+            <a href="https://scratch.mit.edu/projects/672982922"><img class="Game" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt="BrodyDB's fifth most loved" /></a>
             <a href="https://scratch.mit.edu/projects/672982922">
               <h1 class="link">5.☁ MSP ☁online</h1>
             </a>
@@ -242,7 +261,7 @@
                     <h1 class="dot">.</h1>
                     <div class="col">
                       <div class="p-3">
-                        <img class="icon phone" src="https://cdn-icons-png.flaticon.com/128/0/488.png" alt="">
+                        <img class="icon phone" src="https://cdn-icons-png.flaticon.com/128/2586/2586488.png" alt="">
                         <h2 class="acc-header">mobile friendly</h2>
                         <h4 class="acc-text">this is considered mobile friendly by google test</h4>
                       </div>
@@ -283,6 +302,34 @@
             </div>
           </section>
         </section>
+      </div>
+      <div class="tab-pane fade show active" id="SignIn-tab-pane" role="tabpanel" aria-labelledby="SignIn-tab" tabindex="0">
+        <center>
+          <h1 class="SignInHeader">create or sign in to old account Now!</h1>
+        </center>
+        <div style="height:30px;">
+
+        </div>
+        <center>
+        <form action="/" method="post">
+          <button type="submit" name="Sign-In" class="btn btn-success btn-sm Sign-In-Button">CREATE NEW</button>
+        </form>
+        <div style="height:30px;">
+
+        </div>
+        <form action="/" method="post">
+          <button type="submit" name="Sign-In" class="btn btn-success btn-sm Sign-In-Button">SIGN IN TO OLD</button>
+        </form>
+              <div style="height:30px;">
+
+        </div>
+        <div style="height:30px;">
+
+        </div>
+        <div style="height:30px;">
+
+        </div>
+
       </div>
     </div>
     <!--this is the code for the footer-->
@@ -330,7 +377,7 @@
                   <h1 class="footer-headers" style="color:white;">create</h1>
                 </div>
                 <div class="no-pad">
-                  <a href="working-on.html" class="btn btn-dark footer-button">I'm working on</a>
+                  <a href="working-on.html" onclick="notworking" class="btn btn-dark footer-button">I'm working on</a>
                 </div>
                 <div class="no-pad">
                   <a href="https://scratch.mit.edu/users/BrodyDB/" class="btn btn-dark footer-button">Follow</a>
@@ -344,7 +391,8 @@
           </div>
         </div>
       </div>
-        
-        <script src="" async defer></script>
+       
+      
+      <script src="BC.js"></script>
     </body>
 </html>
