@@ -52,13 +52,59 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="public/css/styles.css">
-        <script src="public/JS/extra.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="JS/extra.js"></script>
 </head>
     <body>
-    <ul class="nav nav-tabs bg-dark navstick" id="myTab" role="tablist">
+    <ul class="nav nav-tabs bg-dark navstick " style="    background-color:#2db8ff; background-image: linear-gradient(#626262,#000000);" id="myTab" role="tablist">
+      <div style="width: 330px; height:40px;"></div>
+      <li>
+        <img class="bc-image" style="position:absolute; left:5px; top:3px;" src="https://delayedbrick.github.io/cv.Brodys-Coderama/BC-cool.jpg" alt="">
+        <a href="" class="nav-tabs-brand ms-auton SG">Brody's Coderama
+          
+          <!--brody's codurama  -->
+        </a>
+      </li>
+      <!--this has my info button in it-->
+      <li>
+        <button class="btn btn-dark btn-sm info-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Info</button>
+  
+        <div class="offcanvas offcanvas-end canvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <img class="info-image-1 info-image" src="https://uploads.scratch.mit.edu/projects/thumbnails/662201032.png" alt="">
+            <img class="info-image-2 info-image" src="https://uploads.scratch.mit.edu/projects/thumbnails/600323213.png" alt="">
+            <img class="info-image-3 info-image" src="https://uploads.scratch.mit.edu/projects/thumbnails/694734220.png" alt="">
+            <img class="info-image-4 info-image" src="https://uploads.scratch.mit.edu/projects/thumbnails/650137348.png" alt="">
+            <img class="info-image-5 info-image" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt="">
+            <img class="info-image-6 info-image" src="https://cdn2.scratch.mit.edu/get_image/project/713216117_144x108.png" alt="">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title info-label" id="offcanvasRightLabel">Info</h5>
+            <button type="button" class="btn-close close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div>
+            <a href="" class="info-brodyDB">BrodyDB</a>
+          </div>
+          <div class="offcanvas-body">
+            <center>
+            <em class="info-text">this website is made from html, css, and javascript this is my first website to share with other people. have fun uploading projects this might be behind on my top five projects if it is message me here link to spot to
+              message if you need help message me at that link.</em>
+          </div>
+        </div>
+      </li>
 
-        <li class="nav-item" role="presentation">
+      <!--this is my collapse-->
+
+      <nav class="navbar navbar-expand-lg " style="padding: 0 0 0 0;">  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span>
+          <svg class="navbar-toggler-icon" style="color: white;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg></span>
+      </button>
+
+      <div class="collapse navbar-collapse"   id="navbarNavAltMarkup">
+
+
+      <li class="nav-item" role="presentation">
         <button class="nav-link active BrodyDB_tab" id="home-tab navbarNav" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button btn-secondary" role="tab" aria-controls="home-tab-pane" aria-selected="true">BrodyDB</button>
       </li>
       <li class="nav-item" role="presentation">
@@ -73,38 +119,14 @@
       <li class="nav-item" role="presentation">
         <button class="nav-link SignIn_tab" id="SignIn-tab" data-bs-toggle="tab" data-bs-target="#SignIn-tab-pane" type="button" role="tab" aria-controls="SignIn-tab-pane" aria-selected="false">Sign In</button>
       </li>
+      <div style="width: 630px;"></div>
   
-      <li>
-        <button class="btn btn-outline-dark btn-sm info-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Info</button>
-  
-        <div class="offcanvas offcanvas-end canvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-            <img class="info-image-1 info-image" src="https://uploads.scratch.mit.edu/projects/thumbnails/662201032.png" alt="">
-            <img class="info-image-2 info-image" src="https://uploads.scratch.mit.edu/projects/thumbnails/600323213.png" alt="">
-            <img class="info-image-3 info-image" src="https://uploads.scratch.mit.edu/projects/thumbnails/694734220.png" alt="">
-            <img class="info-image-4 info-image" src="https://uploads.scratch.mit.edu/projects/thumbnails/650137348.png" alt="">
-            <img class="info-image-5 info-image" src="https://uploads.scratch.mit.edu/projects/thumbnails/672982922.png" alt="">
-            <img class="info-image-6 info-image" src="https://cdn2.scratch.mit.edu/get_image/project/713216117_144x108.png" alt="">
-            <div class="offcanvas-header">
-            <h5 class="offcanvas-title info-label" id="offcanvasRightLabel">Info</h5>
-            <button type="button" class="btn-close close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+ 
 
-          </div>
-          <div>
-            <a href="" class="info-brodyDB">BrodyDB</a>
-          </div>
-          <div class="offcanvas-body">
-            <center>
-            <em class="info-text">this website is made from html, css, and javascript this is my first website to share with other people. have fun uploading projects this might be behind on my top five projects if it is message me here link to spot to
-              message if you need help message me at that link.</em>
-          </div>
-        </div>
-      </li>
-      <li>
-        <a href="" class="nav-tabs-brand ms-auton SG">BC
-          <!--brody's codurama  -->
-        </a>
-      </li>
     </ul>
+  </div>
+  </nav>
+
     <div class="tab-content" id="myTabContent">
       <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
         <center>
@@ -259,8 +281,9 @@
   
         <input class="form-control me-2 search-button" type="search" placeholder="comment..." aria-label="Search">
         <!--this is the comment section code-->
-        <button class="btn send btn-success" type="submit">send</button>
+        <button class="btn send btn-success" type="submit">send <img style="width:20px; height:20px;" src="https://cdn-icons-png.flaticon.com/512/736/736110.png" alt=""></button>
       </div>
+
       <div class="tab-pane fade" id="about-tab-pane" role="tabpanel" aria-labelledby="about-tab" tabindex="0">
         <section class="about">
           <section id="title-top">
