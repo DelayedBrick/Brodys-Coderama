@@ -153,6 +153,9 @@ body{
     font-size: 7vw;
   }
   .Game {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
     width: 60%;
     border-radius: 5%;
     outline-width: 3px;
@@ -312,11 +315,11 @@ body{
   }
   .SG {
     position: absolute;
-    top: -9px;
-    right: 9px;
+    top: -6px;
+    left: 53px;
     text-decoration: none;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     opacity: 1;
     font-family: fantasy;
     transition: 0.3s;
@@ -413,12 +416,11 @@ body{
   .info-button {
     position: absolute;
     top: 5px;
-    margin-left: 6px;
-    transition: 0.3s;
+    right: 6px;
     color: white;
-    outline-width:1px;
+    outline-width: 0.01px;
     outline-style:solid;
-    outline-color:#737272;
+    outline-color:rgb(153, 153, 153);
   }
   
   .navstick {
@@ -431,6 +433,7 @@ body{
     color: grey;
     transition: 0.5s;
     text-transform: capitalize;
+    font-size: 15px;
   }
   /*this is the comment section code*/
   .search-button {
@@ -595,9 +598,7 @@ body{
   }
   
   @media screen and (max-device-width:520px) {
-    .nav{
-      height:35px ;
-      }
+
       .search-button {
         margin-top: 10px;
         width: 150px;
@@ -613,17 +614,7 @@ body{
         margin-left: 155px;
         text-shadow: 1px 1px 2px black, 0 0 25px darkgrey, 0 0 5px lightgrey;
       }
-    .nav-item{
-      display: block;
-      font-size: 10px;
-      font-weight: 900;
-    }
-    .info-button {
-      position: absolute;
-      height:10px;
-      right:47px;
-      visibility: hidden;
-    }
+
     .info-text {
       text-shadow: -9px 9px 7px #303030;
       text-decoration: underline;
@@ -631,19 +622,7 @@ body{
       line-height: 1.5;
       font-size: 40px;
     }
-    .SG {
-      position: absolute;
-      top: 9px;
-      right: 5px;
-      text-decoration: none;
-      color: white;
-      font-size: 25px;
-      opacity: 1;
-      font-family: fantasy;
-      transition: 0.3s;
-      font-size: 15px;
-      text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px grey;
-    }
+
     .footer-headers {
       font-size: 8px;
       font-family: 'coiny';
@@ -670,19 +649,7 @@ body{
       top: 50px;
       z-index: 99;
     }
-    .SG {
-      position: absolute;
-      top: 5px;
-      right: 15px;
-      text-decoration: none;
-      color: white;
-      font-size: 25px;
-      opacity: 1;
-      font-family: 'fantasy';
-      transition: 0.3s;
-      font-size: 10px;
-      text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px grey;
-    }
+    
   }
   /***************WHAT I'M WORKINGON CODE*****************/
   .Logo {
@@ -741,6 +708,8 @@ body{
   }
   
   .info-button:hover {
+    outline-width: 0px;
+    transition: 0.3s;
     opacity: 1;
     background-color: #3b3b3b;
     box-shadow: 1px 1px 2px black, 0 0 15px darkgrey, 0 0 5px lightgrey;
@@ -750,8 +719,19 @@ body{
   .SG:hover {
     color: lightgrey;
     opacity: 0.8;
-    transform: rotate(-7deg);
-    font-size: 41px;
+
+    font-size: 36px;
+    z-index: 101;
+  }
+  .bc-image{
+    transition: 0.3s;
+    width:35px; height:35px; 
+  }
+  .bc-image:hover{
+    color: lightgrey;
+    opacity: 0.8;
+    width: 37px; 
+    height:37px; 
     z-index: 101;
   }
   .button{
